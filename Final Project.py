@@ -33,7 +33,8 @@ logging.basicConfig(
 # Set up the display
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("RESULTANT OF MOMENT AND ROTATION (MOVED PIVOT)")
-
+icon = pygame.image.load(r'C:\Users\PC\Desktop\Mechanics final Project\animal.png')
+pygame.display.set_icon(icon)
 
 clock = pygame.time.Clock()
 
