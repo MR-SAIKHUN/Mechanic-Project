@@ -7,7 +7,7 @@
 - [Prince Yeoj Caravan](https://github.com/IamPrince2)
 
 ## Project Description
-This project is a physics-based simulation built using Pygame, where a randomly sized and shaped object undergoes forces and moments. The user can interact with it to balance or stabilize its movement. All activities and warning will be logged.
+This project lets you play around with forces and rotations on a custom-shaped object with the simulation. The pivot will be randomly selected with the different places each time you use the simulation. You can change the object’s shape, apply different forces randomly, and see how it moves in real time. 
 ## Requirements
 - **Python Version:** 3.7 or higher
 - **Dependencies:**
@@ -26,6 +26,9 @@ cd Mechanic-Project
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Logo
+We request you to change the code at the line number 36 in the Final Project.py which code is (icon = pygame.image.load(r'C:\Users\PC\Desktop\Mechanics final Project\animal.png') ) .  We want you to replace the file path with the location of animal.png file in your device, so that you can use the simulation with our logo.
 ```
 
 ## Usage Guide
@@ -51,6 +54,7 @@ Users can control and interact with the simulation using buttons located at the 
 | Undo | Reverts the object's position to to its initial state |
 | Reset | Stops the simulation and and creates a new object |
 | Shape | Changes the object's shape |
+| Logging | Log entry which includes the exact timestamps and the specific actions |
 
 ## Example Image
 Here is a screenshot of what the simulation looks like.
