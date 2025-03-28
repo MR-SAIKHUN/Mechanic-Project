@@ -27,8 +27,7 @@ cd Mechanic-Project
 # Install dependencies
 pip install -r requirements.txt
 
-# Logo
-We request you to change the code at the line number 36 in the Final Project.py which code is (icon = pygame.image.load(r'C:\Users\PC\Desktop\Mechanics final Project\animal.png') ) .  We want you to replace the file path with the location of animal.png file in your device, so that you can use the simulation with our logo.
+
 ```
 
 ## Usage Guide
