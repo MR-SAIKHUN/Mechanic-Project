@@ -54,4 +54,4 @@ Users can control and interact with the simulation using buttons located at the 
 
 ## Example Images
 Here are some screenshots or images explaining different functionalities:
-![Example Image](assets/example.png)
+![Example Image](assets/Example.PNG)
