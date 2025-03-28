@@ -7,13 +7,15 @@
 - [Prince Yeoj Caravan](https://github.com/IamPrince2)
 
 ## Project Description
-This project is a physics-based simulation built using Pygame, where a randomly sized and shaped object undergoes forces and moments. The user can interact with it to balance or stabilize its movement.
-
+This project is a physics-based simulation built using Pygame, where a randomly sized and shaped object undergoes forces and moments. The user can interact with it to balance or stabilize its movement. All activities and warning will be logged.
 ## Requirements
-- **Python Version:** 3.X.X
+- **Python Version:** 3.7 or higher
 - **Dependencies:**
-  - pygame
-  - numpy
+  - pygame 2.1.2 or higher
+  - logging
+  - math
+  - random
+  - sys
 
 ## Installation
 To install and set up the project, follow these steps:
@@ -33,18 +35,23 @@ Step-by-step instructions on how to use the project, including logging and savin
 ```sh
 # Run the project
 python main.py
+
+# How to use
+A composite object is created at the center of the window with a random initial shape with random sizes
+Forces are randomly applied to the object, and a pivot is randomly selected for the rotation.
 ```
 
 ### Functionality Overview
+Users can control and interact with the simulation using buttons located at the bottom of the screen.
+
 | Feature | Description |
 |---------|-------------|
-| Function 1 | Explanation of Function 1 |
-| Function 2 | Explanation of Function 2 |
-| Function 3 | Explanation of Function 3 |
-
-## Flowchart
-![Flowchart](path/to/flowchart.png)
+| Start | Starts the simulation and updates based on forces and moments applied |
+| Stop | Stops the simulation |
+| Undo | Reverts the object's position to to its initial state |
+| Reset | Stops the simulation and and creates a new object |
+| Shape | Changes the object's shape |
 
 ## Example Images
 Here are some screenshots or images explaining different functionalities:
-![Example Image](path/to/example-image.png)
+![Example Image](assets/example.png)
