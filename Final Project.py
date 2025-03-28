@@ -33,8 +33,15 @@ logging.basicConfig(
 # Set up the display
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("RESULTANT OF MOMENT AND ROTATION (MOVED PIVOT)")
-icon = pygame.image.load(r'C:\Users\PC\Desktop\Mechanics final Project\animal.png')
-pygame.display.set_icon(icon)
+base_dir = os.path.dirname(os.path.abspath(__file__))
+image_path = os.path.join(base_dir, "assets", "animal.png")
+
+# Load and set the icon
+try:
+    icon = pygame.image.load(image_path)
+    pygame.display.set_icon(icon)
+except pygame.error as e:
+    print(f"Error loading image: {e}")
 
 clock = pygame.time.Clock()
 
