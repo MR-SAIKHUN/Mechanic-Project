@@ -52,6 +52,6 @@ Users can control and interact with the simulation using buttons located at the 
 | Reset | Stops the simulation and and creates a new object |
 | Shape | Changes the object's shape |
 
-## Example Images
-Here are some screenshots or images explaining different functionalities:
+## Example Image
+Here is a screenshot of what the simulation looks like.
 ![Example Image](assets/Example.PNG)
