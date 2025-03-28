@@ -56,6 +56,7 @@ Users can control and interact with the simulation using buttons located at the 
 | Shape | Changes the object's shape |
 | Logging | Log entry which includes the exact timestamps and the specific actions |
 
+
 ## Example Image
 Here is a screenshot of what the simulation looks like.
 ![Example Image](assets/Example.PNG)
