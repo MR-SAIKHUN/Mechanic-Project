@@ -10,8 +10,8 @@ from datetime import datetime
 pygame.init()
 
 # Constants
-WINDOW_WIDTH = 800
-WINDOW_HEIGHT = 600
+WINDOW_WIDTH = 1080
+WINDOW_HEIGHT = 720
 FPS = 60
 
 # Colors
